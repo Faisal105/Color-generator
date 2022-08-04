@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.container {
+	height: 200px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	color: black;
+}
+#card {
+	text-align: center;
+	background: aquamarine;
+	height: 157px;
+	color: black;
+	font-weight: bold;
+	border: none;
+	outline: none;
+}
+#input-box {
+	background-color: rgb(106, 106, 106);
+	margin-top: 5px;
+	color: rgb(226, 226, 226);
+}
+input[type='range'] {
+	-webkit-appearance: none;
+	width: 15%;
+	height: 10px;
+	outline: none;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+
+.container #red-input {
+	background: linear-gradient(90deg, #000, red);
+}
+
+.container #green-input {
+	background: linear-gradient(90deg, #000, green);
+}
+
+.container #blue-input {
+	background: linear-gradient(90deg, #000, blue);
+}
